@@ -2,7 +2,10 @@
 public class ExpOne {
     public static void main(String[] args) {
 
+        System.out.println("Shivam Singh\n07313302720\nCSE-5A\n");
+
         //-----------------------Stack Implementation------------------------------------//
+        System.out.println("\nStack Implementation\n");
         stack s1 = new stack(3);
         s1.push(1);      
         s1.push(2);      
@@ -16,6 +19,7 @@ public class ExpOne {
         
 
         //-----------------------Queue Implementation------------------------------------//
+        System.out.println("\nQueue Implementation\n");
         queue q = new queue(5);
         q.enqueue(1);
         q.enqueue(2);
